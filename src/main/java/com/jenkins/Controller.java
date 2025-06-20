@@ -7,11 +7,11 @@ import org.springframework.web.bind.annotation.RestController;
 public class Controller {
 
 	
-		@GetMapping
+		@GetMapping("/pushing")
 		public String getname() {
 			return "hello";	
 			}
-		@GetMapping
+		@GetMapping("/push")
 		public String get() {
 			return "world";
 		}
