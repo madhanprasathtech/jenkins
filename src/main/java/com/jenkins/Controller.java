@@ -11,4 +11,8 @@ public class Controller {
 		public String getname() {
 			return "hello";	
 			}
+		@GetMapping
+		public String get() {
+			return "world";
+		}
 }
